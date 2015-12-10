@@ -5,3 +5,4 @@
 /recovery	emmc		/dev/block/platform/hi_mci.0/by-name/recovery 
 /system		ext4		/dev/block/platform/hi_mci.0/by-name/system
 /external_sd		vfat		/dev/block/mmcblk1p1	/dev/block/mmcblk1	flags=display="External Storage";storage;wipeingui;removable
+/usb-otg vfat /dev/block/sda1 /dev/block/sda flags=removable;storage;display=USB-OTG
